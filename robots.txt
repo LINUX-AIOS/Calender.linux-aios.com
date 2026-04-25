@@ -1,21 +1,5 @@
-# robots.txt for Zaan Calendar
-# This file tells Google and other search engines how to crawl your website
-
 User-agent: *
 Allow: /
 Disallow: /admin
-Disallow: /private
 
-# Specific rules for Googlebot
-User-agent: Googlebot
-Allow: /
-
-# Specific rules for Bingbot
-User-agent: Bingbot
-Allow: /
-
-# Crawl-delay (optional - tells bots to wait 1 second between requests)
-Crawl-delay: 1
-
-# Sitemap location
 Sitemap: https://calender.linux-aios.com/sitemap.xml
